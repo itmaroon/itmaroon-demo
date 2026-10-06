@@ -116,7 +116,7 @@
       "path": "/wordpress/wp-content/mu-plugins/itmaroon-demo-setup.php",
       "data": {
         "resource": "url",
-        "url": "http://127.0.0.1:8100/mu-plugin/itmaroon-demo-setup.php"
+        "url": "https://raw.githubusercontent.com/itmaroon/itmaroon-demo/master/itmaroon-demo-setup.php"
       }
     },
     {
@@ -124,7 +124,7 @@
       "path": "/wordpress/wp-content/itmaroon-demo/seed.json",
       "data": {
         "resource": "url",
-        "url": "http://127.0.0.1:8100/seed.json"
+        "url": "https://raw.githubusercontent.com/itmaroon/itmaroon-demo/master/seed.json"
       }
     },
     {
@@ -132,14 +132,14 @@
       "path": "/wordpress/wp-content/itmaroon-demo/seed.php",
       "data": {
         "resource": "url",
-        "url": "http://127.0.0.1:8100/seed.php"
+        "url": "https://raw.githubusercontent.com/itmaroon/itmaroon-demo/master/seed.php"
       }
     },
     {
       "step": "unzip",
       "zipFile": {
         "resource": "url",
-        "url": "http://127.0.0.1:8100/uploads.zip"
+        "url": "https://raw.githubusercontent.com/itmaroon/itmaroon-demo/master/uploads.zip"
       },
       "extractToPath": "/wordpress/wp-content/uploads"
     },
@@ -147,7 +147,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "http://127.0.0.1:8100/theme/kiln-theme.zip"
+        "url": "https://raw.githubusercontent.com/itmaroon/itmaroon-demo/master/kiln-theme.zip"
       },
       "options": {
         "activate": true
